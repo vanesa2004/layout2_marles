@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+
+#container{
+    border: 1px solid #fff;
+    width: 25%;
+    height: 650px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+#good{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-top{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-top img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+#section-one{
+    display: flex;
+    flex-direction: column; 
+}
+
+.pick-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pick-up{
+    font-size: 20px;
+}
+
+.botton-view{
+    background-color: gray;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.articulos-pick{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.one{
+    background-image: url("../img/imagen2.jpeg");
+    width: 100px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chill{
+    margin-bottom: -15px;
+}
+
+.two{
+    background-image: url("../img/imagen4.jpeg");
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.three{
+    background-image: url("../img/imagen3.jpeg");
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-two{
+    display: flex;
+    flex-direction: column;
+}
+
+.for-you{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.articles-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.artist{
+    background-image: url("../img/imagen5.jpeg");
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aaa{
+    margin-bottom: -15px;
+}
+
+.pop-music{
+    background-image: url("../img/imagen4.jpeg");
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-onee{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aling{
+    display: flex;
+    flex-direction: row;
+}
+
+.list-onee img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+}
+
+.cali{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.living{
+    margin-bottom: -15px;
+}
+
+.icons-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    position: fixed;
+    margin: 0;
+}
+
+.icons-footer .fa-sharp{
+    margin-right: 95%;
+}
+
+/* Profile */
+
+
+#container-profile{
+    border: 1px solid blue;
+    margin: 0;
+    padding: 0;
+    width: 99%;
+}
+
+.inicio-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.inicio-icons img{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#info{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.fondooo{
+    background-color: gray;
+    width: 100px;
+    border-radius: 10px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.following{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.circle{
+    background-color: white;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
